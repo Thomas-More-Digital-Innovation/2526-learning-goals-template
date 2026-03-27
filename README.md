@@ -1,38 +1,4 @@
-# sv
+# Some things take time to be perfected
+> This documentation is one of them
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+<img src="https://imgs.search.brave.com/mqq-PUhP4e78UPoWY6ArAMX7UFM-9TKjTa656Wwq1hk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oNy5h/bGFteS5jb20vY29t/cC9FV0NOOVgveW91/bmctYnVzaW5lc3Nt/YW4tbHlpbmctaW4t/YS1oYW1tb2NrLXdp/dGgtYS1sYXB0b3At/aW4taGlzLWxhcC1h/bmQtRVdDTjlYLmpw/Zw">
