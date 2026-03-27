@@ -1,0 +1,8 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "",
+    "title": "",
+    "track": [],
+    "status": "",
+    "project": []
+}

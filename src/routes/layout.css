@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+:root {
+	--color-primary: #00293F;
+	--color-accent: #FA6432;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+	background: white;
+	padding-bottom: 2rem;
+	margin: 0;
+}
+
+ul {
+	list-style: outside;
+}
+
+ol {
+	list-style: decimal;
+}
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+/* Markdown Code Blocks */
+pre {
+    background-color: #1f2937;
+    color: #f3f4f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+code {
+    font-family: 'ui-monospace', 'SFMono-Regular', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Inline code tags should have a light background and specific color */
+:not(pre) > code {
+    background-color: #f3f4f6;
+    color: #ef4444;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+}
+
+/* Code tags inside pre tags should be transparent and inherit parent styles (important for markdown highlighters) */
+pre code {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+    border-radius: 0;
+}

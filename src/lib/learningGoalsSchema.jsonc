@@ -1,0 +1,70 @@
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "learningGoal": {
+            "type": "object",
+            "properties": {
+                "number": {
+                    "type": "number"
+                },
+                "title": {
+                    "type": "string"
+                }
+            }
+        },
+        "track": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "APP",
+                    "AI",
+                    "CCS",
+                    "DI",
+                    "EVERYTHING"
+                ]
+            }
+        },
+        "status": {
+            "type": "string",
+            "enum": [
+                "",
+                "Todo",
+                "In Progress",
+                "Done"
+            ]
+        },
+        "verified": {
+            "type": "string"
+        },
+        "project": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    // Opleidings onderdelen
+                    "OPO SKILL2",
+                    "OPO SKILL3",
+                    "OPO 2APP-AI SM&D",
+                    "OPO 2APP-AI AI",
+                    "OPO 3APP RZL",
+                    "OPO 3APP UI/UX",
+                    "OPO 2CCS Linux Web Services",
+                    // DI related
+                    "Tech talks",
+                    "Belevingsdag",
+                    "Portfolio",
+                    "General DI",
+                    // DI projects
+                    "2526-MOBI-027-Database-design",
+                    "2526-DI-004-Stratego",
+                    "2526-waai-001-waaiburg-mobile-app",
+                    "2526-TE-001-Art-website",
+                    "2526-MOBI-016-I-m-in-tales-project",
+                    "2526-THEM-003-Meshcore-Tracker"
+                ]
+            }
+        }
+    }
+}

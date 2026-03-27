@@ -1,0 +1,10 @@
+{
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"cSpell.language": "en,lorem,nl",
+	"search.exclude": {
+		"src/content": true,
+		"static/content": true
+	}
+}
