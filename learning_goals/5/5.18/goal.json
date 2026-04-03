@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.18",
+    "title": "You develop a personal and substantiated view concerning philosophical questions, in dialogue with the Christian faith.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

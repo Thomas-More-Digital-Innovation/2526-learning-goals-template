@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "1.4",
+    "title": "You apply the principles of object-oriented modelling to create accurate and well-structured class and sequence diagrams that effectively represent system components, their relationships, and interactions.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "4.1",
+    "title": "You find opportunities to create value for others and turns them into validated solutions.",
+    "track": [
+        "APP",
+        "AI",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

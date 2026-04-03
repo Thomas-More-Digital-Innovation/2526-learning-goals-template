@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.14",
+    "title": "You identify the challenges and risks associated with wireless networks, including security and interference issues.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

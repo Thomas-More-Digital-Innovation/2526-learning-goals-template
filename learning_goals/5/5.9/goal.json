@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.9",
+    "title": "Present your work in a compelling way. Whether you are in front of a small team or a large audience, you will present your work in a way that perfectly meets the needs of your audience. You will learn how to get your message across correctly and make an impact.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

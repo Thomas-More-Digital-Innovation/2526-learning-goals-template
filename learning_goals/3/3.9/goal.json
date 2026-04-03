@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "3.9",
+    "title": "You analyze user needs and translate them into a functional UX concept based on common UX principles.",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

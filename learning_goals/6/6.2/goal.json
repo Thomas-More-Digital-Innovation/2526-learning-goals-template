@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "6.2",
+    "title": "You master the principles of virtual networking and virtual storage, applying them in a cluster environment.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

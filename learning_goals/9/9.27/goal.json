@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.27",
+    "title": "he student works effectively with an automation configuration management tool.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

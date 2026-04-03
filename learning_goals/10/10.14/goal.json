@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.14",
+    "title": "You integrate Augmented Reality functionality into a cross-platform mobile application.",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

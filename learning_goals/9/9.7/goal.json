@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.7",
+    "title": "You will apply the technologies learned in a real-world case study",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

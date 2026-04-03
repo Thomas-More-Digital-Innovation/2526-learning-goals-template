@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.24",
+    "title": "The student installs/configures/manages Linux network services found in an (inter)network environment.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

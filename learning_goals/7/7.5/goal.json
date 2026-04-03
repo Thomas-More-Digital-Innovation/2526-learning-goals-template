@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "7.5",
+    "title": "You identify meaningful patterns, trends and relationships by interpreting created visualizations.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

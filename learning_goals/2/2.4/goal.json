@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "2.4",
+    "title": "You develop a chatbot with the Microsoft Bot framework and communicate with your end user using dialogues",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

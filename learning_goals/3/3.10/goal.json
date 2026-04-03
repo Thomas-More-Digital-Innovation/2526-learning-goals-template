@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "3.10",
+    "title": "You use Figma to design visually appealing and accessible prototypes based on user flow and UI principles such as hierarchy, contrast, and consistency.",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

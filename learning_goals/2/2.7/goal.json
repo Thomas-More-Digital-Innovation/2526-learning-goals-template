@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "2.7",
+    "title": "You integrate into the App a Computer Vision model for Object Detection, Image Classification, OCR, ...",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

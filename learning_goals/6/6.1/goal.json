@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "6.1",
+    "title": "You compare different types of virtualization, explain the benefits, and clarify the key differences between virtualization and emulation.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.22",
+    "title": "The student develops a reactive full-stack application using Angular as front-end and a self-selected backend technology according to the latest best practices",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

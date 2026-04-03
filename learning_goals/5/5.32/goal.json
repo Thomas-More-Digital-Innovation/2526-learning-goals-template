@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.32",
+    "title": "You carry out a project with a duration of more than one semester in a multidisciplinary team and with limited supervision and guidance from a coach.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

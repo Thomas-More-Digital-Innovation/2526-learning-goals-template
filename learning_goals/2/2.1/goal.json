@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "2.1",
+    "title": "You master the secret language of data and use the right jargon to explain Data Engineering concepts with precision.",
+    "track": [
+        "AI"
+    ],
+    "status": "",
+    "project": []
+}

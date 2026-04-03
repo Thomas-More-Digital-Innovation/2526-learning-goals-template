@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "2.14",
+    "title": "You use Deep Learning to train and test a neural network",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

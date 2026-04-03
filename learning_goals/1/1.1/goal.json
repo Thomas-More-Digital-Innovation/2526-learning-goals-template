@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "1.1",
+    "title": "You identify functional requirements and translate these into standardised conceptual models (use case diagram, data model) taking into account the business context.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

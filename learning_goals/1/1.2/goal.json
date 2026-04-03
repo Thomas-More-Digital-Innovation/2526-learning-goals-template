@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "1.2",
+    "title": "You identify and justify non-functional requirements for your project based on the ISO25010 quality model, ensuring that reliability and security are explicitly addressed.",
+    "track": [
+        "APP",
+        "AI",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

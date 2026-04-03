@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.15",
+    "title": "You independently identify functional and non-functional requirements based on a broadly formulated assignment and translate these into standardized conceptual models, considering the business context.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

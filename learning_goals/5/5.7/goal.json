@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.7",
+    "title": "You actively participate in class discussions, activities and research assignments. This is how you improve your English language skills and upgrade your ability to communicate effectively in an international work environment.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

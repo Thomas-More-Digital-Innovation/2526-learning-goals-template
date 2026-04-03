@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "6.4",
+    "title": "You combine servers and storage devices into your own fault-tolerant and highly available software-defined data center, integrate virtual storage and networks, and manage resources based on IT and business needs.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

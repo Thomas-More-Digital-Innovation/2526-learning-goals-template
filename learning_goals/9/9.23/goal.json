@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.23",
+    "title": "You configure and manage mail security en Azure infrastructure services",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

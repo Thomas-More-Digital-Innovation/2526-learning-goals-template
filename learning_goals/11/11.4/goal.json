@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.4",
+    "title": "You formulate technical recommendations to developers to mitigate software vulnerabilities, referring to relevant documentation for support",
+    "track": [
+        "AI",
+        "APP",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

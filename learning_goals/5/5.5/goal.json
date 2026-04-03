@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.5",
+    "title": "Research culturally relevant topics. Delve into current, social issues that affect your IT workplace. Consider how you can use technology to positively impact the world around you.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

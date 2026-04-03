@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.16",
+    "title": "You collect and interpret data within your field to solve complex IT problems, taking into account the business context. You examine and evaluate IT solutions in your field and make well-founded recommendations, considering the business context.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

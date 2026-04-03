@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.42",
+    "title": "You expand your professional and international network by attending networking events",
+    "track": [
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

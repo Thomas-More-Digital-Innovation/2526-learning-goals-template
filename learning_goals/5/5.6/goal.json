@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.6",
+    "title": "Develop your ability to adapt to new situations, persuade others and negotiate successfully. These techniques will help you, as an IT professional, to collaborate with various stakeholders and achieve results.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

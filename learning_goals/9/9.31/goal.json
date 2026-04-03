@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.31",
+    "title": "You utilize monitoring tools and analytical methods to evaluate and improve the performance of wireless networks.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

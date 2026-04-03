@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "6.8",
+    "title": "You describe the distinction between different cloud concepts and cloud service models.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

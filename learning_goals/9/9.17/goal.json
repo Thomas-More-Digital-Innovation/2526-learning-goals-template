@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.17",
+    "title": "You define and troubleshoot the operation of DNS in a multi-domain environment.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

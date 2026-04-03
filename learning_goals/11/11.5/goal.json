@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.5",
+    "title": "You report to a non-technical audience on the overall security level of a software application",
+    "track": [
+        "AI",
+        "APP",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

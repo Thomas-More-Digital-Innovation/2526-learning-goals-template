@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.23",
+    "title": "Ace that job interview! Whether it's an internship, a final interview or your first real job - you'll learn how to apply confidently and convincingly in preparation for the real world.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

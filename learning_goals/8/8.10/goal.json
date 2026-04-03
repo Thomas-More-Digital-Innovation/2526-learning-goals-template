@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "8.10",
+    "title": "You prepare and execute a test plan on the built solution",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

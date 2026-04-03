@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.20",
+    "title": "You analyze the possibilities of natural language models (Conversational Language Understanding) in relation to your project idea.",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

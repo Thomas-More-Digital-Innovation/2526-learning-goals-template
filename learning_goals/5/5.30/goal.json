@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.30",
+    "title": "You communicate clearly both orally and in writing with the support and assistance of team members, taking into account the target group being a coach and a client from the business world.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

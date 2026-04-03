@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.12",
+    "title": "You analyze network traffic using advanced network analysis tools.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

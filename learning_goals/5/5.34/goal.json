@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.34",
+    "title": "The student collaborates professionally in a team context by communicating effectively, taking on tasks and actively contributing to the achievement of the project goals, with regular reflection on their own and the team's performance.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

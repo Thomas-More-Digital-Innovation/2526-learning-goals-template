@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.4",
+    "title": "You make an ethical analysis in an IT context, weighing up interests and weighing up values and norms that apply in society",
+    "track": [
+        "APP",
+        "AI",
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

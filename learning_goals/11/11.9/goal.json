@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.9",
+    "title": "You use systems that verify network access, ensuring the security of the network.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

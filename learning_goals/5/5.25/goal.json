@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.25",
+    "title": "Pick a topic, delve into it, and teach it yourself. You will organize a workshop and learn how to engage and excite others.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

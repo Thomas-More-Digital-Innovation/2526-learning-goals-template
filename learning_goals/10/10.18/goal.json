@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.18",
+    "title": "You integrate an AI model into an application and use it to implement intelligent functionality.",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

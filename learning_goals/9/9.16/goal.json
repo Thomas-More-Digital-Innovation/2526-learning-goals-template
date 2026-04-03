@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.16",
+    "title": "You install and configure a Windows Server Active Directory environment tailored to the characteristics and requirements of a multinational global enterprise.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "2.3",
+    "title": "You configure cloud services to create magical, efficient data pipelines.",
+    "track": [
+        "AI"
+    ],
+    "status": "",
+    "project": []
+}

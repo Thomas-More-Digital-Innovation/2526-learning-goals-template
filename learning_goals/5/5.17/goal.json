@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.17",
+    "title": "You develop, document, and evaluate complex IT solutions in your professional domain, in accordance with the business context and other professional domains.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

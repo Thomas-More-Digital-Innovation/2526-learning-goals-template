@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.41",
+    "title": "You produce manuals and procedures for users and team members",
+    "track": [
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "4.9",
+    "title": "You demonstrate the ability to integrate ITIL best practices into a practical software maintenance workflow, ensuring service quality, stability and controlled delivery of system updates.",
+    "track": [
+        "APP",
+        "AI",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

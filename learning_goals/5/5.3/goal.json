@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.3",
+    "title": "You present your online portfolio, according to your personal brand, to a limited audience",
+    "track": [
+        "CCS",
+        "APP",
+        "AI",
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

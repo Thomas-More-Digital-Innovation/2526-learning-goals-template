@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.11",
+    "title": "You manage and optimize a corporate network, including detecting and resolving issues.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

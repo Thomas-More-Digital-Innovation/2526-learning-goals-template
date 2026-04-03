@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.6",
+    "title": "You associate Cybersecurity events with the corresponding phases of a Cybersecurity framework.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

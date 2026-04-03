@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.20",
+    "title": "You install, configure, and manage a forest with a child domain.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

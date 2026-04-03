@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.2",
+    "title": "You define and troubleshoot the operation of DNS.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

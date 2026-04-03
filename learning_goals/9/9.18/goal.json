@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.18",
+    "title": "You manage Active Directory replication.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.25",
+    "title": "The student designs and implements an automated CI/CD pipeline that automatically deploys code to development, test and production environments according to a predefined Git branching strategy.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

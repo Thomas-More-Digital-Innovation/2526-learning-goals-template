@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.11",
+    "title": "You demonstrate to a jury of IT experts in your field of study that you are ready for the professional world and possess the necessary competencies outlined in your program's learning outcomes. You achieve this through a portfolio and a presentation",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

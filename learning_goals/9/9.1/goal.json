@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.1",
+    "title": "You install and configure a Windows Server Active Directory environment adapted to the characteristics and requirements of an SME (SBE small business enterprise)",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

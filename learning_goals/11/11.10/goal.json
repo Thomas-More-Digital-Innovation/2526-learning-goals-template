@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.10",
+    "title": "You test the security of endpoints and enhance them based on advanced cybersecurity guidelines.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

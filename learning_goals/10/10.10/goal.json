@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.10",
+    "title": "You create a design based on the identified requirements",
+    "track": [
+        "APP",
+        "AI",
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

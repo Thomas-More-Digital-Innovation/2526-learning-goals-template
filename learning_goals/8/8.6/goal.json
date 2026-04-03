@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "8.6",
+    "title": "You work with containers to package and distribute applications.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "6.5",
+    "title": "You research and evaluate possible deployment scenarios for IT platforms based on requirements, both for on premise and in the cloud.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

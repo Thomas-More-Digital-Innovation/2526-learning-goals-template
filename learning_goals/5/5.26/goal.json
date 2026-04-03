@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.26",
+    "title": "Collaborate and compete in fun communication challenges. Take part in exciting communication challenges where you’ll collaborate with your peers, solve real-world problems, and even compete in friendly debates or pitch competitions. It’s a great way to sharpen your skills, have fun, and build lasting connections!",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}
