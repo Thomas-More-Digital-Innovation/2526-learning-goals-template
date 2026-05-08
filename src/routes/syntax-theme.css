@@ -1,0 +1,86 @@
+/* Language Labels */
+pre[class*="language-js"]::before, pre[class*="language-javascript"]::before { content: 'JAVASCRIPT'; }
+pre[class*="language-ts"]::before, pre[class*="language-typescript"]::before { content: 'TYPESCRIPT'; }
+pre[class*="language-svelte"]::before { content: 'SVELTE'; }
+pre[class*="language-vue"]::before { content: 'VUE'; }
+pre[class*="language-jsx"]::before { content: 'REACT (JSX)'; }
+pre[class*="language-tsx"]::before { content: 'REACT (TSX)'; }
+pre[class*="language-angular"]::before { content: 'ANGULAR'; }
+pre[class*="language-css"]::before { content: 'CSS'; }
+pre[class*="language-html"]::before { content: 'HTML'; }
+pre[class*="language-php"]::before { content: 'PHP'; }
+pre[class*="language-blade"]::before { content: 'BLADE'; }
+pre[class*="language-sql"]::before, pre[class*="language-postgresql"]::before { content: 'SQL / POSTGRESQL'; }
+pre[class*="language-go"]::before { content: 'GO'; }
+pre[class*="language-python"]::before { content: 'PYTHON'; }
+pre[class*="language-json"]::before { content: 'JSON'; }
+pre[class*="language-bash"]::before, pre[class*="language-shell"]::before, pre[class*="language-sh"]::before { content: 'SHELL'; }
+pre[class*="language-csharp"]::before, pre[class*="language-cs"]::before { content: 'C#'; }
+pre[class*="language-java"]::before { content: 'JAVA'; }
+pre[class*="language-dart"]::before { content: 'DART'; }
+pre[class*="language-nix"]::before { content: 'NIX'; }
+pre[class*="language-c"]::before { content: 'C'; }
+pre[class*="language-cpp"]::before { content: 'C++'; }
+
+/* Monaco / VS Code Dark+ Syntax Coloring */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #6a9955;
+}
+
+.token.punctuation {
+    color: #d4d4d4;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #b5cea8;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #ce9178;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+    color: #d4d4d4;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #569cd6;
+}
+
+.token.function,
+.token.class-name {
+    color: #dcdcaa;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #d16969;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}

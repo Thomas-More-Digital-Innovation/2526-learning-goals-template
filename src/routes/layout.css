@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import './syntax-theme.css';
 
 :root {
 	--color-primary: #00293F;
@@ -25,34 +26,53 @@ ol {
 	scroll-behavior: smooth;
 }
 
-/* Markdown Code Blocks */
+/* Monaco / VS Code Dark+ inspired Syntax Highlighting */
 pre {
-    background-color: #1f2937;
-    color: #f3f4f6;
-    padding: 1rem;
-    border-radius: 0.5rem;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 2.5rem 1rem 1rem 1rem; /* Extra top padding for the language tag */
+    border-radius: 8px;
     overflow-x: auto;
-    margin: 1rem 0;
-    font-size: 0.875rem;
-    line-height: 1.5;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    position: relative;
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+    border: 1px solid #333;
+}
+
+/* Language Tag (Monaco style) */
+pre::before {
+    content: 'CODE';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.5rem;
+    background: #252526;
+    color: #969696;
+    font-size: 0.7rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #333;
 }
 
 code {
-    font-family: 'ui-monospace', 'SFMono-Regular', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Monaco', 'Consolas', monospace;
+    font-variant-ligatures: contextual;
 }
 
-/* Inline code tags should have a light background and specific color */
+/* Inline code tags */
 :not(pre) > code {
     background-color: #f3f4f6;
-    color: #ef4444;
+    color: #00293F;
     padding: 0.2rem 0.4rem;
     border-radius: 0.25rem;
-}
-
-/* Code tags inside pre tags should be transparent and inherit parent styles (important for markdown highlighters) */
-pre code {
-    background-color: transparent;
-    color: inherit;
-    padding: 0;
-    border-radius: 0;
+    font-size: 0.85em;
+    border: 1px solid #e5e7eb;
 }
