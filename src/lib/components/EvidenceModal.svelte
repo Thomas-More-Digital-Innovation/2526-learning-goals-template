@@ -169,22 +169,47 @@
         }
 
         :global(code) {
-            background: #f3f4f6;
-            color: #ef4444;
-            padding: 0.125rem 0.375rem;
+            font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Monaco', 'Consolas', monospace;
+            font-variant-ligatures: contextual;
+            background-color: #f3f4f6;
+            color: #00293F;
+            padding: 0.2rem 0.4rem;
             border-radius: 0.25rem;
-            font-size: 0.875rem;
+            font-size: 0.85em;
+            border: 1px solid #e5e7eb;
         }
 
         :global(pre) {
-            background: #1f2937;
-            color: #e5e7eb;
-            padding: 1rem;
-            border-radius: 0.5rem;
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            padding: 2.5rem 1rem 1rem 1rem;
+            border-radius: 8px;
             overflow-x: auto;
-            margin-bottom: 2rem;
-            font-size: 0.875rem;
-            line-height: 1.5;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            position: relative;
+            box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+            border: 1px solid #333;
+        }
+
+        :global(pre)::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1.5rem;
+            background: #252526;
+            color: #969696;
+            font-size: 0.7rem;
+            padding: 0 1rem;
+            display: flex;
+            align-items: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid #333;
         }
 
         :global(pre code) {
@@ -193,7 +218,9 @@
             padding: 0;
             border-radius: 0;
             font-size: inherit;
+            border: none;
         }
+
         :global(a) {
             color: var(--color-accent);
             text-decoration: underline;

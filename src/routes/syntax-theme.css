@@ -1,0 +1,98 @@
+/* Language Labels */
+pre:is([class*="language-js"], :has(code[class*="language-js"]))::before, 
+pre:is([class*="language-javascript"], :has(code[class*="language-javascript"]))::before { content: 'JAVASCRIPT'; }
+
+pre:is([class*="language-ts"], :has(code[class*="language-ts"]))::before, 
+pre:is([class*="language-typescript"], :has(code[class*="language-typescript"]))::before { content: 'TYPESCRIPT'; }
+
+pre:is([class*="language-svelte"], :has(code[class*="language-svelte"]))::before { content: 'SVELTE'; }
+pre:is([class*="language-vue"], :has(code[class*="language-vue"]))::before { content: 'VUE'; }
+pre:is([class*="language-jsx"], :has(code[class*="language-jsx"]))::before { content: 'REACT (JSX)'; }
+pre:is([class*="language-tsx"], :has(code[class*="language-tsx"]))::before { content: 'REACT (TSX)'; }
+pre:is([class*="language-angular"], :has(code[class*="language-angular"]))::before { content: 'ANGULAR'; }
+pre:is([class*="language-css"], :has(code[class*="language-css"]))::before { content: 'CSS'; }
+pre:is([class*="language-html"], :has(code[class*="language-html"]))::before { content: 'HTML'; }
+pre:is([class*="language-php"], :has(code[class*="language-php"]))::before { content: 'PHP'; }
+pre:is([class*="language-blade"], :has(code[class*="language-blade"]))::before { content: 'BLADE'; }
+pre:is([class*="language-sql"], :has(code[class*="language-sql"]))::before, 
+pre:is([class*="language-postgresql"], :has(code[class*="language-postgresql"]))::before { content: 'SQL / POSTGRESQL'; }
+
+pre:is([class*="language-go"], :has(code[class*="language-go"]))::before { content: 'GO'; }
+pre:is([class*="language-python"], :has(code[class*="language-python"]))::before { content: 'PYTHON'; }
+pre:is([class*="language-json"], :has(code[class*="language-json"]))::before { content: 'JSON'; }
+
+pre:is([class*="language-bash"], :has(code[class*="language-bash"]))::before, 
+pre:is([class*="language-shell"], :has(code[class*="language-shell"]))::before, 
+pre:is([class*="language-sh"], :has(code[class*="language-sh"]))::before { content: 'SHELL'; }
+
+pre:is([class*="language-csharp"], :has(code[class*="language-csharp"]))::before, 
+pre:is([class*="language-cs"], :has(code[class*="language-cs"]))::before { content: 'C#'; }
+
+pre:is([class*="language-java"], :has(code[class*="language-java"])):not(:is([class*="language-javascript"], :has(code[class*="language-javascript"])))::before { content: 'JAVA'; }
+pre:is([class*="language-dart"], :has(code[class*="language-dart"]))::before { content: 'DART'; }
+pre:is([class*="language-nix"], :has(code[class*="language-nix"]))::before { content: 'NIX'; }
+pre:is([class*="language-c"], :has(code[class*="language-c"])):not(:is([class*="language-cpp"], :has(code[class*="language-cpp"]), [class*="language-csharp"], :has(code[class*="language-csharp"]), [class*="language-cs"], :has(code[class*="language-cs"])))::before { content: 'C'; }
+pre:is([class*="language-cpp"], :has(code[class*="language-cpp"]))::before { content: 'C++'; }
+
+/* Monaco / VS Code Dark+ Syntax Coloring */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #6a9955;
+}
+
+.token.punctuation {
+    color: #d4d4d4;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #b5cea8;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #ce9178;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+    color: #d4d4d4;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #569cd6;
+}
+
+.token.function,
+.token.class-name {
+    color: #dcdcaa;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #d16969;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}
