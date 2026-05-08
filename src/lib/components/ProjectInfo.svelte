@@ -69,7 +69,7 @@
                         class="text-[0.7rem] font-semibold uppercase tracking-wider text-gray-500"
                         >Project</span
                     >
-                    <h3 class="text-base my-0.5 font-bold text-[#00293F]">
+                    <h3 class="text-base my-0.5! font-bold text-[#00293F]">
                         {projectName}
                     </h3>
                 </div>
