@@ -1,6 +1,8 @@
 ---
-visible: false
----
+visible: false 
+ ---
+<!-- Don't forget to change the visibility! -->
+
 <script> 
     import { Image, Video, Pdf } from "$lib/components/evidence"; 
 </script> 
@@ -17,10 +19,6 @@ the project duration here
 
 the learning goals here
 
-## Links
-
-<a href="https://github.com/Thomas-More-Digital-Innovation/" target="_blank">link to the project</a>
-
 ## Code Example
 
 ```javascript
@@ -33,6 +31,12 @@ function helloWorld() {
     };
 }
 ```
+
+## Links
+
+<a href="https://github.com/Thomas-More-Digital-Innovation/" target="_blank">link to the project</a>
+
+
 
 <Image src="image.png" alt="" caption="" /> 
 <Video src="video.mp4" caption="" /> 

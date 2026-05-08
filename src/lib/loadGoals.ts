@@ -41,6 +41,14 @@ const evidenceModulesGlob = import.meta.glob<{
     default: Component;
 }>("../../learning_goals/*/*/evidence.svx");
 
+// Eager load project modules for rendering and metadata
+const projectModulesGlob = import.meta.glob<{
+    default: Component;
+    metadata: { duration?: string };
+}>("../../learning_goals/projects/*.svx", { eager: true });
+
+export const projectModules = projectModulesGlob;
+
 // Map goal number (e.g. "1.1") to the actual glob path (the key)
 const evidencePathLookup: Record<string, string> = {};
 for (const path of Object.keys(evidenceModulesGlob)) {
