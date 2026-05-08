@@ -39,7 +39,7 @@
             : 'border-[#00293F]/10 bg-white/70 shadow-sm backdrop-blur-md'}"
     >
         <button
-            class="flex w-full items-center justify-between gap-4 p-4 text-left"
+            class="group flex w-full cursor-pointer items-center justify-between transition-colors hover:bg-gray-100 duration-200 gap-4 p-4 text-left"
             onclick={() => (isOpen = !isOpen)}
             aria-expanded={isOpen}
         >
