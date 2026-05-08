@@ -1,11 +1,13 @@
 <script lang="ts">
     import type { LearningGoal } from "$lib/types";
     import type { Component } from "svelte";
+    import ProjectInfo from "./ProjectInfo.svelte";
 
     interface Props {
         goal: LearningGoal | null;
         EvidenceComponent?: Component | null;
         isLoading?: boolean;
+        hideProjectDrawer?: boolean;
         onClose: () => void;
     }
 
@@ -13,6 +15,7 @@
         goal,
         EvidenceComponent = null,
         isLoading = false,
+        hideProjectDrawer = false,
         onClose,
     }: Props = $props();
 
@@ -63,6 +66,14 @@
                 </button>
             </div>
             <div class="modal-body">
+                {#if goal.project && goal.project.length > 0 && !hideProjectDrawer}
+                    <div class="projects-container">
+                        {#each goal.project as projectName}
+                            <ProjectInfo {projectName} />
+                        {/each}
+                    </div>
+                {/if}
+
                 {#if isLoading}
                     <div class="loading">
                         <div class="spinner"></div>
@@ -141,6 +152,11 @@
         overflow-y: auto;
         color: #374151;
         line-height: 1.625;
+        padding-top: 1.5rem;
+
+        .projects-container {
+            margin-bottom: 2rem;
+        }
 
         :global(h1),
         :global(h2),

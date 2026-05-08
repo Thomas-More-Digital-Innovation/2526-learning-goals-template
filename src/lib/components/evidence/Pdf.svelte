@@ -8,21 +8,30 @@
     let { src, title = "PDF Document", height = "600px" }: Props = $props();
 
     import { getContext } from "svelte";
-    import { resolveAssetPath } from "$lib/assets";
-    import { base } from "$app/paths";
+    import { resolveAssetPath, resolveProjectAssetPath } from "$lib/assets";
 
     const context = getContext("evidence") as
         | { categoryNumber: number; goalNumber: string }
         | undefined;
 
+    const projectContext = getContext("project") as
+        | { projectName: string }
+        | undefined;
+
     let resolvedSrc = $derived.by(() => {
         // If it's an external URL, return as is
-        if (src.startsWith('http://') || src.startsWith('https://')) return src;
+        if (src.startsWith("http://") || src.startsWith("https://")) return src;
 
         let path = src;
-        
-        // If src doesn't contain slashes and we have context, try auto-resolution
-        if (context && !src.includes("/") && !src.includes("\\")) {
+
+        // Try project context first
+        if (projectContext && !src.includes("/") && !src.includes("\\")) {
+            const resolved = resolveProjectAssetPath(src);
+            if (resolved) {
+                path = resolved;
+            }
+        } else if (context && !src.includes("/") && !src.includes("\\")) {
+            // Fallback to evidence context
             const resolved = resolveAssetPath(
                 context.categoryNumber,
                 context.goalNumber,
@@ -37,16 +46,6 @@
             }
         }
 
-        // Ensure path starts with base if it's an internal absolute-style path
-        if (path.startsWith("/")) {
-            // Avoid double base if it already starts with it
-            if (base && path.startsWith(base)) return path;
-            return `${base}${path}`;
-        }
-
-        // For relative paths like '../content/...', Vite should ideally handle them,
-        // but if we are in production and base is set, we might need to be careful.
-        // Usually, glob-imported assets are already relative to the root or absolute.
         return path;
     });
 </script>

@@ -18,27 +18,37 @@
     }: Props = $props();
 
     import { getContext } from "svelte";
-    import { resolveAssetPath } from "$lib/assets";
+    import { resolveAssetPath, resolveProjectAssetPath } from "$lib/assets";
 
     const context = getContext("evidence") as
         | { categoryNumber: number; goalNumber: string }
         | undefined;
 
-    let resolvedSrc = $derived.by(() => {
-        if (!context || src.includes("/") || src.includes("\\")) return src;
+    const projectContext = getContext("project") as
+        | { projectName: string }
+        | undefined;
 
-        const resolved = resolveAssetPath(
-            context.categoryNumber,
-            context.goalNumber,
-            src,
-        );
-        if (!resolved) {
-            console.warn(
-                `Could not resolve asset: ${src} for goal ${context.goalNumber}`,
-            );
-            return src;
+    let resolvedSrc = $derived.by(() => {
+        if (src.includes("/") || src.includes("\\")) return src;
+
+        // Try project context first
+        if (projectContext) {
+            const resolved = resolveProjectAssetPath(src);
+            if (resolved) return resolved;
         }
-        return resolved;
+
+        // Fallback to evidence context
+        if (context) {
+            const resolved = resolveAssetPath(
+                context.categoryNumber,
+                context.goalNumber,
+                src,
+            );
+            if (resolved) return resolved;
+        }
+
+        console.warn(`Could not resolve asset: ${src}`);
+        return src;
     });
 </script>
 
