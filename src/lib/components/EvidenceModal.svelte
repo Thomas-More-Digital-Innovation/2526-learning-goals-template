@@ -194,7 +194,6 @@
         }
 
         :global(pre)::before {
-            content: 'CODE';
             position: absolute;
             top: 0;
             left: 0;

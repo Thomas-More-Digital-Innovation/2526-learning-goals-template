@@ -1,26 +1,38 @@
 /* Language Labels */
-pre[class*="language-js"]::before, pre[class*="language-javascript"]::before { content: 'JAVASCRIPT'; }
-pre[class*="language-ts"]::before, pre[class*="language-typescript"]::before { content: 'TYPESCRIPT'; }
-pre[class*="language-svelte"]::before { content: 'SVELTE'; }
-pre[class*="language-vue"]::before { content: 'VUE'; }
-pre[class*="language-jsx"]::before { content: 'REACT (JSX)'; }
-pre[class*="language-tsx"]::before { content: 'REACT (TSX)'; }
-pre[class*="language-angular"]::before { content: 'ANGULAR'; }
-pre[class*="language-css"]::before { content: 'CSS'; }
-pre[class*="language-html"]::before { content: 'HTML'; }
-pre[class*="language-php"]::before { content: 'PHP'; }
-pre[class*="language-blade"]::before { content: 'BLADE'; }
-pre[class*="language-sql"]::before, pre[class*="language-postgresql"]::before { content: 'SQL / POSTGRESQL'; }
-pre[class*="language-go"]::before { content: 'GO'; }
-pre[class*="language-python"]::before { content: 'PYTHON'; }
-pre[class*="language-json"]::before { content: 'JSON'; }
-pre[class*="language-bash"]::before, pre[class*="language-shell"]::before, pre[class*="language-sh"]::before { content: 'SHELL'; }
-pre[class*="language-csharp"]::before, pre[class*="language-cs"]::before { content: 'C#'; }
-pre[class*="language-java"]::before { content: 'JAVA'; }
-pre[class*="language-dart"]::before { content: 'DART'; }
-pre[class*="language-nix"]::before { content: 'NIX'; }
-pre[class*="language-c"]::before { content: 'C'; }
-pre[class*="language-cpp"]::before { content: 'C++'; }
+pre:is([class*="language-js"], :has(code[class*="language-js"]))::before, 
+pre:is([class*="language-javascript"], :has(code[class*="language-javascript"]))::before { content: 'JAVASCRIPT'; }
+
+pre:is([class*="language-ts"], :has(code[class*="language-ts"]))::before, 
+pre:is([class*="language-typescript"], :has(code[class*="language-typescript"]))::before { content: 'TYPESCRIPT'; }
+
+pre:is([class*="language-svelte"], :has(code[class*="language-svelte"]))::before { content: 'SVELTE'; }
+pre:is([class*="language-vue"], :has(code[class*="language-vue"]))::before { content: 'VUE'; }
+pre:is([class*="language-jsx"], :has(code[class*="language-jsx"]))::before { content: 'REACT (JSX)'; }
+pre:is([class*="language-tsx"], :has(code[class*="language-tsx"]))::before { content: 'REACT (TSX)'; }
+pre:is([class*="language-angular"], :has(code[class*="language-angular"]))::before { content: 'ANGULAR'; }
+pre:is([class*="language-css"], :has(code[class*="language-css"]))::before { content: 'CSS'; }
+pre:is([class*="language-html"], :has(code[class*="language-html"]))::before { content: 'HTML'; }
+pre:is([class*="language-php"], :has(code[class*="language-php"]))::before { content: 'PHP'; }
+pre:is([class*="language-blade"], :has(code[class*="language-blade"]))::before { content: 'BLADE'; }
+pre:is([class*="language-sql"], :has(code[class*="language-sql"]))::before, 
+pre:is([class*="language-postgresql"], :has(code[class*="language-postgresql"]))::before { content: 'SQL / POSTGRESQL'; }
+
+pre:is([class*="language-go"], :has(code[class*="language-go"]))::before { content: 'GO'; }
+pre:is([class*="language-python"], :has(code[class*="language-python"]))::before { content: 'PYTHON'; }
+pre:is([class*="language-json"], :has(code[class*="language-json"]))::before { content: 'JSON'; }
+
+pre:is([class*="language-bash"], :has(code[class*="language-bash"]))::before, 
+pre:is([class*="language-shell"], :has(code[class*="language-shell"]))::before, 
+pre:is([class*="language-sh"], :has(code[class*="language-sh"]))::before { content: 'SHELL'; }
+
+pre:is([class*="language-csharp"], :has(code[class*="language-csharp"]))::before, 
+pre:is([class*="language-cs"], :has(code[class*="language-cs"]))::before { content: 'C#'; }
+
+pre:is([class*="language-java"], :has(code[class*="language-java"])):not(:is([class*="language-javascript"], :has(code[class*="language-javascript"])))::before { content: 'JAVA'; }
+pre:is([class*="language-dart"], :has(code[class*="language-dart"]))::before { content: 'DART'; }
+pre:is([class*="language-nix"], :has(code[class*="language-nix"]))::before { content: 'NIX'; }
+pre:is([class*="language-c"], :has(code[class*="language-c"])):not(:is([class*="language-cpp"], :has(code[class*="language-cpp"]), [class*="language-csharp"], :has(code[class*="language-csharp"]), [class*="language-cs"], :has(code[class*="language-cs"])))::before { content: 'C'; }
+pre:is([class*="language-cpp"], :has(code[class*="language-cpp"]))::before { content: 'C++'; }
 
 /* Monaco / VS Code Dark+ Syntax Coloring */
 .token.comment,

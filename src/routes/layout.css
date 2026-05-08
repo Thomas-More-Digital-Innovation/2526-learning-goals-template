@@ -1,5 +1,4 @@
 @import 'tailwindcss';
-@import './syntax-theme.css';
 
 :root {
 	--color-primary: #00293F;
@@ -76,3 +75,6 @@ code {
     font-size: 0.85em;
     border: 1px solid #e5e7eb;
 }
+
+/* Syntax Theme (Imported last to override the default 'CODE' label) */
+@import './syntax-theme.css';
