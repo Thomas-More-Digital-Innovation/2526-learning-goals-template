@@ -7,6 +7,7 @@
         goal: LearningGoal | null;
         EvidenceComponent?: Component | null;
         isLoading?: boolean;
+        hideProjectDrawer?: boolean;
         onClose: () => void;
     }
 
@@ -14,6 +15,7 @@
         goal,
         EvidenceComponent = null,
         isLoading = false,
+        hideProjectDrawer = false,
         onClose,
     }: Props = $props();
 
@@ -64,7 +66,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                {#if goal.project && goal.project.length > 0}
+                {#if goal.project && goal.project.length > 0 && !hideProjectDrawer}
                     <div class="projects-container">
                         {#each goal.project as projectName}
                             <ProjectInfo {projectName} />

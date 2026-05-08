@@ -38,13 +38,14 @@ const evidenceMetadata = import.meta.glob<{ visible?: boolean }>(
 
 // Lazy load evidence modules for rendering
 const evidenceModulesGlob = import.meta.glob<{
+    metadata: { visible?: boolean, hideProjectDrawer?: boolean };
     default: Component;
 }>("../../learning_goals/*/*/evidence.svx");
 
 // Eager load project modules for rendering and metadata
 const projectModulesGlob = import.meta.glob<{
     default: Component;
-    metadata: { duration?: string };
+    metadata: { duration?: string, startsOpened?: boolean };
 }>("../../learning_goals/projects/*.svx", { eager: true });
 
 export const projectModules = projectModulesGlob;

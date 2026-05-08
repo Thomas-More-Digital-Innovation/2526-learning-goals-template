@@ -9,17 +9,27 @@
 
     let { projectName }: Props = $props();
 
-    // Find the module that matches the project name
-    const moduleKey = Object.keys(projectModules).find((key) =>
-        key.endsWith(`/${projectName}.svx`),
+    // Find the module that matches the project name reactively
+    let moduleKey = $derived(
+        Object.keys(projectModules).find((key) =>
+            key.endsWith(`/${projectName}.svx`),
+        ),
     );
-    const projectModule = moduleKey ? projectModules[moduleKey] : null;
+    let projectModule = $derived(moduleKey ? projectModules[moduleKey] : null);
 
-    // Use startsOpened from metadata if present
-    let isOpen = $state(projectModule?.metadata?.startsOpened ?? false);
+    let isOpen = $state(false);
 
-    // Provide context for nested components (Image, Video, Pdf)
-    setContext("project", { projectName });
+    $effect(() => {
+        if (projectModule?.metadata?.startsOpened) {
+            isOpen = true;
+        }
+    });
+
+    setContext("project", {
+        get projectName() {
+            return projectName;
+        },
+    });
 </script>
 
 {#if projectModule}
@@ -59,7 +69,7 @@
                         class="text-[0.7rem] font-semibold uppercase tracking-wider text-gray-500"
                         >Project</span
                     >
-                    <h3 class="text-base my-0.5! font-bold text-[#00293F]">
+                    <h3 class="text-base my-0.5 font-bold text-[#00293F]">
                         {projectName}
                     </h3>
                 </div>
