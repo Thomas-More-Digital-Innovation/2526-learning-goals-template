@@ -113,6 +113,18 @@ def migrate():
             
             print(f"Migrated {goal_num}")
 
+            # Migrate projects
+            projects_dir = os.path.join(output_base_dir, "projects")
+            os.makedirs(projects_dir, exist_ok=True)
+            template_project = os.path.join(template_dir, "project.svx")
+
+            if os.path.exists(template_project):
+                for project_name in goal_json_data["project"]:
+                    project_file = os.path.join(projects_dir, f"{project_name}.svx")
+                    if not os.path.exists(project_file):
+                        shutil.copy2(template_project, project_file)
+                        print(f"Created project description for {project_name}")
+
         all_categories.append(current_category)
 
     # Re-generate VERIFICATION.jsonc only if it doesn't exist, to avoid data loss

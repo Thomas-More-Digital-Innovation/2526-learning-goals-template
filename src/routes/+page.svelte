@@ -27,6 +27,7 @@
 
     let selectedGoal = $state<LearningGoal | null>(null);
     let EvidenceComponent = $state<Component | null>(null);
+    let hideProjectDrawer = $state(false);
     let isLoadingEvidence = $state(false);
 
     let filteredCategories = $derived(
@@ -59,6 +60,7 @@
             try {
                 const module = await loader();
                 EvidenceComponent = module.default;
+                hideProjectDrawer = module.metadata?.hideProjectDrawer ?? false;
             } catch (e) {
                 console.error("Failed to load evidence:", e);
             }
@@ -147,6 +149,7 @@
 <EvidenceModal
     goal={selectedGoal}
     {EvidenceComponent}
+    {hideProjectDrawer}
     isLoading={isLoadingEvidence}
     onClose={handleCloseModal}
 />
