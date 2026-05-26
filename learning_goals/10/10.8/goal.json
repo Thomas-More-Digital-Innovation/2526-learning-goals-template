@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.8",
+    "title": "You apply microservice and distributed system principles to design, develop, and validate modular, scalable enterprise solutions.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Done",
+    "project": ["2526-DI-034-DI4D-Portal"]
+}

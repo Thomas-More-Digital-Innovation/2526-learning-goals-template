@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.16",
+    "title": "You develop an intelligent application according to a structured design pattern (such as MVVM or an equivalent architectural pattern).",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

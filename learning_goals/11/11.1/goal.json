@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.1",
+    "title": "You apply a structured security audit methodology while performing application security audits",
+    "track": [
+        "AI",
+        "APP",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

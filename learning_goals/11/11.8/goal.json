@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.8",
+    "title": "You implement secure solutions to connect public and private networks, applying the CIANA principles, and demonstrate these solutions.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

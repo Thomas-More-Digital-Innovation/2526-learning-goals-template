@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.2",
+    "title": "You convey IT knowledge tailored to the audience's prior knowledge",
+    "track": [
+        "CCS",
+        "APP",
+        "AI",
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

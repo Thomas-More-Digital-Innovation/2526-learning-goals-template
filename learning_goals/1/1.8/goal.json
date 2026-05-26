@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "1.8",
+    "title": "You research and compare various solutions and substantiate your best choice with strong arguments by using the Weighted Decision Matrix technique or an equivalent.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

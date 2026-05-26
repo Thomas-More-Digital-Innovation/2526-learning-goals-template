@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.21",
+    "title": "You integrate a language comprehension model into an application to support speech or text interactions.",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

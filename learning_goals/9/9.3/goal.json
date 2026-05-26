@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.3",
+    "title": "You manage and automate Active Directory users and groups",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

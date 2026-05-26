@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.31",
+    "title": "You tackle assignments with a lead time of more than one semester in a planned and project-based manner, taking into account the business-economic context with limited adjustment and guidance from a coach.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

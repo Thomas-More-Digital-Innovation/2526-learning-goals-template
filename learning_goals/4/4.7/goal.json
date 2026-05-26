@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "4.7",
+    "title": "Development of problem-solving skills: you develop your problem-solving skills by tackling real-world business challenges and creating innovative solutions that contribute to the efficiency and effectiveness of business processes.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

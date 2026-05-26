@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.29",
+    "title": "You manage and optimize the performance of wireless networks through configuration and troubleshooting techniques.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

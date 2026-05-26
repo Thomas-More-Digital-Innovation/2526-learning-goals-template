@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.14",
+    "title": "You evaluate opportunities to integrate a mail environment with a hybrid cloud solution.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.23",
+    "title": "The student applies monorepo architecture by integrating both front-end and backend projects within a single repository and configures shared libraries and build pipelines.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

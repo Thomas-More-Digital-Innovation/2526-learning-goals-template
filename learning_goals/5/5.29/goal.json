@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.29",
+    "title": "You install, configure, secure and adapt complex IT solutions in your area of expertise with the support of team members from a multidisciplinary team, adapted to the business context and integrated with the IT solutions of the other areas of expertise.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

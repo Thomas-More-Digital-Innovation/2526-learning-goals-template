@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "4.8",
+    "title": "Together with your peers, you analyse a business process (sales, procurment, on-boarding…), visualise it in BPMN and propose possible improvements to increase its efficiency and effectiveness.",
+    "track": [
+        "APP",
+        "AI",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

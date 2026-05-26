@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.28",
+    "title": "You develop, document and test complex IT solutions in his field of expertise, in a multidisciplinary team in line with the business context and taking into account the other fields of expertise.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

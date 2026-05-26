@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "2.2",
+    "title": "You wisely choose the right infrastructure and resources to build powerful data pipelines tailored to the client's needs.",
+    "track": [
+        "AI"
+    ],
+    "status": "",
+    "project": []
+}

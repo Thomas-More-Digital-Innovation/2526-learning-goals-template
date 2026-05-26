@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.3",
+    "title": "You implement efficient and secure data persistence using ORM or equivalent techniques.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Done",
+    "project": ["2526-UAnt-007-Arcade-cabinet", "2526-TMEM-001-Ticketing-system-for-repair-café"]
+}

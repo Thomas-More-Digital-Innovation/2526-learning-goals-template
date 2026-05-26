@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.13",
+    "title": "You develop a cross-platform mobile application in accordance with platform-specific design guidelines and best practices.",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

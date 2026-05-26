@@ -1,0 +1,28 @@
+---
+visible: true
+---
+<script> 
+    import { Image, Video, Pdf } from "$lib/components/evidence"; 
+</script> 
+
+## Evidence
+
+In all these projects tailwind was used to create responsive interfaces.
+
+## [MPI-001-Employment-Interest-Tool](https://github.com/Thomas-More-Digital-Innovation/2526-MPI-001-Employment-Interest-Tool)
+|  |  |
+| --- | --- |
+| <Image src="./mpi/desktop.png" alt="MPI-001" /> | <Image src="./mpi/mobile.png" alt="MPI-001" /> |
+
+
+## [UAnt-007-Arcade-cabinet](https://github.com/Thomas-More-Digital-Innovation/2526-UAnt-007-Arcade-cabinet)
+
+<Image src="./ua/image.png" alt="UAnt-007" />
+
+## [TMEM-001-Ticketing-system-for-repair-café](https://github.com/Thomas-More-Digital-Innovation/2526-TMEM-001-Ticketing-system-for-repair-café)
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| <Image src="./repaircafe/1.png" alt="TMEM-001" /> | <Image src="./repaircafe/2.png" alt="TMEM-001" /> | <Image src="./repaircafe/3.png" alt="TMEM-001" /> | <Image src="./repaircafe/4.png" alt="TMEM-001" /> |
+
+<Image src="repaircafe/image.png" alt="" />

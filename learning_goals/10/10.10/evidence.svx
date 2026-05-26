@@ -1,0 +1,22 @@
+---
+visible: true
+---
+<script> 
+    import { Image, Video, Pdf } from "$lib/components/evidence"; 
+</script> 
+
+## Explanation
+
+For the DI4D project we made a full design analysis. Use case model, data model and prototypes. 
+Throughout the design process we had meetings with the client to make sure our identified requirements 
+were correct and this has led to a good final result, which was smooth to implement.
+
+## Links
+
+<a href="https://github.com/Thomas-More-Digital-Innovation/2526-DI-034-DI4D-Portal" target="_blank">link to the project</a>
+
+## Files
+
+<Image src="DI4D-ERD.png" alt="DI4D" />
+<Image src="DI4D-UCD.png" alt="DI4D" />
+<Pdf src="Flow.pdf" alt="DI4D" />

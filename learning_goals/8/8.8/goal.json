@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "8.8",
+    "title": "You create an infrastructure design that integrates the technologies into a working solution",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

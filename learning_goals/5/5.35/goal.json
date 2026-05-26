@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.35",
+    "title": "The student applies the Scrum methodology within a team context by iteratively planning, monitoring and adjusting using Jira as a project management tool.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

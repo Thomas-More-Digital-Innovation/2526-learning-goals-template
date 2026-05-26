@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.11",
+    "title": "You create a focused awareness campaign to guide end-users in securely handling IT systems.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

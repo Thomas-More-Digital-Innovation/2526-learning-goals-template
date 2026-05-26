@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "7.8",
+    "title": "You design a dimensional data model (star scheme) by identifying appropriate dimensions, facts and their relationships.",
+    "track": [
+        "AI"
+    ],
+    "status": "",
+    "project": []
+}

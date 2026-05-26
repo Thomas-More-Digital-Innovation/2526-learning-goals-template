@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.30",
+    "title": "You understand the role of wireless networks in the evolution of IoT (Internet of Things) and 5G communication.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

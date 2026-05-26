@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "7.1",
+    "title": "You analyze available data, uncover hidden formats and data types, and detect dirty data.",
+    "track": [
+        "AI"
+    ],
+    "status": "",
+    "project": []
+}

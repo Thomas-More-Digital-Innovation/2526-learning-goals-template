@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.39",
+    "title": "You communicate professionally, both verbally and in writing with an (internal) client",
+    "track": [
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

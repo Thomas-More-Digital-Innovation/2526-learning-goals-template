@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "1.9",
+    "title": "You compare different testing methods and select the most appropriate one for the given circumstances.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

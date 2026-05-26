@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "4.10",
+    "title": "You enthuse others to go along with an innovation with a convincing business pitch.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "10.26",
+    "title": "The student writes unit tests and end-to-end (E2E) tests to verify the correct operation of components, services and user flows within the application.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

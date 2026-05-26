@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "6.6",
+    "title": "You design and develop secure implementations of cloud solutions with attention to agreements made.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

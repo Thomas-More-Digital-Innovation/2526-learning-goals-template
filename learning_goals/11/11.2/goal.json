@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.2",
+    "title": "You will analyse automatically generated application audits and determine whether reported findings are legitimate vulnerabilities",
+    "track": [
+        "AI",
+        "APP",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

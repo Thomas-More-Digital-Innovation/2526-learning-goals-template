@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.25",
+    "title": "The student gains insight into the functional operation of different types of servers within an (inter)network environment.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

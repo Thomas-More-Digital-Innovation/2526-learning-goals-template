@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.40",
+    "title": "You evaluate your own actions and make adjustments if necessary",
+    "track": [
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.15",
+    "title": "You apply security measures to protect wireless networks from attacks and unauthorized access.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

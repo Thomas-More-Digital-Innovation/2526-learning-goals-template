@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.13",
+    "title": "You configure, install, and secure on-premise mail servers.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

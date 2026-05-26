@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.21",
+    "title": "You manage FSMO roles.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

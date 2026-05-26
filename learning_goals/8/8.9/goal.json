@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "8.9",
+    "title": "You build an IT solution based on a design that meets customer expectations and according to system administration best practices",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

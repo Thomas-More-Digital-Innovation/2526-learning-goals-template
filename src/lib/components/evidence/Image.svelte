@@ -19,6 +19,7 @@
         | undefined;
 
     let resolvedSrc = $derived.by(() => {
+        if (src.startsWith("http://") || src.startsWith("https://")) return src;
         if (src.includes("/") || src.includes("\\")) return src;
 
         // Try project context first

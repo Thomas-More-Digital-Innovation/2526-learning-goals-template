@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.12",
+    "title": "You master the basic principles of network virtualization.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.8",
+    "title": "You master the basic principles of networking.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

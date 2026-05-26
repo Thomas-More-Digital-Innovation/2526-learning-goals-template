@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.10",
+    "title": "You identify threats to a corporate network and apply standardized security methods to protect it.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

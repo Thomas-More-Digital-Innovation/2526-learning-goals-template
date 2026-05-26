@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "7.9",
+    "title": "You implement a designed dimensional data model (star scheme) by developing and executing  ETL or ELT steps that transform and load data into a target data warehouse.",
+    "track": [
+        "AI"
+    ],
+    "status": "",
+    "project": []
+}

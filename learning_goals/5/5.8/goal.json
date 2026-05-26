@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.8",
+    "title": "Conduct professional conversations with clients and understand their needs. Upon completion of a project, create a clear and structured final report with reliable sources so that you can always present your findings with conviction and confidence.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

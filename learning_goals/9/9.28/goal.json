@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.28",
+    "title": "You analyze and compare different wireless network standards and technologies, such as WiFi, 5G, and Bluetooth, understanding their applications and limitations.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

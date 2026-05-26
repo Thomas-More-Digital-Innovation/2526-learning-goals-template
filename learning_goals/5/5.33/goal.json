@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.33",
+    "title": "You act efficiently, with perseverance and initiative and carries out assignments in an ethical, creative, deontological and socially responsible manner and assumes responsibility for results.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.19",
+    "title": "You create trusts and manage data access across trust boundaries.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

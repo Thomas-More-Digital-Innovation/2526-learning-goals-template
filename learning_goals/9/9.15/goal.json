@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.15",
+    "title": "You evaluate opportunities to integrate a BYOD environment with a hybrid cloud solution (Azure Intune).",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

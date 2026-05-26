@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "2.6",
+    "title": "You integrate a Conversational Language Understanding Model into your chatbot",
+    "track": [
+        "APP"
+    ],
+    "status": "Todo",
+    "project": []
+}

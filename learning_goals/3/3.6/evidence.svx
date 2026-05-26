@@ -1,0 +1,14 @@
+---
+visible: true
+---
+<script> 
+    import { Image, Video, Pdf } from "$lib/components/evidence"; 
+</script> 
+
+## Explanation
+
+For the UA arcade cabinet I made a frontend in Vua.js with the Quasar component framework. This frontend is used to interact with the API I implemented in FastAPI (python) that serves game files with dynamic replacement of assets to allow replacing the original game assets with custom ones.
+
+## Links
+
+<a href="https://github.com/Thomas-More-Digital-Innovation/2526-UAnt-007-Arcade-cabinet" target="_blank">link to the repository</a>

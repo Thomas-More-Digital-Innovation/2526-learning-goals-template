@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.37",
+    "title": "You use the scrum methodology to execute projects",
+    "track": [
+        "DI"
+    ],
+    "status": "Todo",
+    "project": []
+}

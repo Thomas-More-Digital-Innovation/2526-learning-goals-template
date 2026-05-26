@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.12",
+    "title": "You install, configure, secure, and adapt complex IT solutions in your professional domain to meet the changing needs of an organization.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

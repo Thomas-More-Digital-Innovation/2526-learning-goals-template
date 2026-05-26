@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "1.7",
+    "title": "You dissect stated requirements and choose the most appropriate technologies to meet those requirements",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}

@@ -1,0 +1,11 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "7.6",
+    "title": "You bring separate visualizations together into a coherent, user-friendly, narrative (storytelling) dashboard from which stakeholders can gain insights.",
+    "track": [
+        "APP",
+        "AI"
+    ],
+    "status": "Todo",
+    "project": []
+}

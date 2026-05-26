@@ -1,0 +1,12 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "11.3",
+    "title": "You use the appropriate tools to identify vulnerabilities in software applications",
+    "track": [
+        "AI",
+        "APP",
+        "CCS"
+    ],
+    "status": "Todo",
+    "project": []
+}

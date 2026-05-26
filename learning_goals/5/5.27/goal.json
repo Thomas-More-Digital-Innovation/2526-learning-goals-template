@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "5.27",
+    "title": "You collect and analyze data within your professional domain to address complex IT issues, considering the business context and other professional areas with minimal coaching and guidance. You evaluate IT solutions in your field and provide well-founded recommendations, taking into account other professional domains.",
+    "track": [
+        "EVERYTHING"
+    ],
+    "status": "Todo",
+    "project": []
+}

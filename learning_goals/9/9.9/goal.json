@@ -1,0 +1,10 @@
+{
+    "$schema": "../../../src/lib/learningGoalsSchema.jsonc",
+    "number": "9.9",
+    "title": "You build and configure a corporate network with routers, switches, and current protocols.",
+    "track": [
+        "CCS"
+    ],
+    "status": "",
+    "project": []
+}
