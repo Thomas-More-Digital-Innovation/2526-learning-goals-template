@@ -39,3 +39,33 @@ export function resolveProjectAssetPath(filename: string): string | null {
     const projectKey = `../../learning_goals/projects/assets/${filename}`;
     return assets[projectKey] || null;
 }
+
+export function resolveAsset(
+    src: string,
+    projectContext?: { projectName: string } | null,
+    context?: { categoryNumber: number; goalNumber: string } | null,
+): string {
+    // If it's an external URL, data URI, or absolute path, return as is
+    if (src.startsWith("/") || /^[a-zA-Z][a-zA-Z\d+\-.]*:/.test(src)) {
+        return src;
+    }
+
+    // Try project context first
+    if (projectContext) {
+        const resolved = resolveProjectAssetPath(src);
+        if (resolved) return resolved;
+    }
+
+    // Fallback to evidence context
+    if (context) {
+        const resolved = resolveAssetPath(
+            context.categoryNumber,
+            context.goalNumber,
+            src,
+        );
+        if (resolved) return resolved;
+    }
+
+    console.warn(`Could not resolve asset: ${src}`);
+    return src;
+}

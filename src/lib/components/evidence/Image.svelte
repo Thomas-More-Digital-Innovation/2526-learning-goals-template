@@ -8,7 +8,7 @@
     let { src, alt = "", caption }: Props = $props();
 
     import { getContext } from "svelte";
-    import { resolveAssetPath, resolveProjectAssetPath } from "$lib/assets";
+    import { resolveAsset } from "$lib/assets";
 
     const context = getContext("evidence") as
         | { categoryNumber: number; goalNumber: string }
@@ -18,29 +18,7 @@
         | { projectName: string }
         | undefined;
 
-    let resolvedSrc = $derived.by(() => {
-        if (src.startsWith("http://") || src.startsWith("https://")) return src;
-        if (src.includes("/") || src.includes("\\")) return src;
-
-        // Try project context first
-        if (projectContext) {
-            const resolved = resolveProjectAssetPath(src);
-            if (resolved) return resolved;
-        }
-
-        // Fallback to evidence context
-        if (context) {
-            const resolved = resolveAssetPath(
-                context.categoryNumber,
-                context.goalNumber,
-                src,
-            );
-            if (resolved) return resolved;
-        }
-
-        console.warn(`Could not resolve asset: ${src}`);
-        return src;
-    });
+    let resolvedSrc = $derived(resolveAsset(src, projectContext, context));
 </script>
 
 <figure class="evidence-image">

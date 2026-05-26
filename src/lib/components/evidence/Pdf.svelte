@@ -8,7 +8,7 @@
     let { src, title = "PDF Document", height = "600px" }: Props = $props();
 
     import { getContext } from "svelte";
-    import { resolveAssetPath, resolveProjectAssetPath } from "$lib/assets";
+    import { resolveAsset } from "$lib/assets";
 
     const context = getContext("evidence") as
         | { categoryNumber: number; goalNumber: string }
@@ -18,36 +18,7 @@
         | { projectName: string }
         | undefined;
 
-    let resolvedSrc = $derived.by(() => {
-        // If it's an external URL, return as is
-        if (src.startsWith("http://") || src.startsWith("https://")) return src;
-
-        let path = src;
-
-        // Try project context first
-        if (projectContext && !src.includes("/") && !src.includes("\\")) {
-            const resolved = resolveProjectAssetPath(src);
-            if (resolved) {
-                path = resolved;
-            }
-        } else if (context && !src.includes("/") && !src.includes("\\")) {
-            // Fallback to evidence context
-            const resolved = resolveAssetPath(
-                context.categoryNumber,
-                context.goalNumber,
-                src,
-            );
-            if (resolved) {
-                path = resolved;
-            } else {
-                console.warn(
-                    `Could not resolve asset: ${src} for goal ${context.goalNumber}`,
-                );
-            }
-        }
-
-        return path;
-    });
+    let resolvedSrc = $derived(resolveAsset(src, projectContext, context));
 </script>
 
 <figure class="evidence-pdf">
