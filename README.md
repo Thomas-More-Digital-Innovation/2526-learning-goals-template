@@ -328,6 +328,24 @@ You can also search for learning goals by title or description.
 
 Reset
 
+## Automated Security Audits
+
+The repository includes a GitHub Actions workflow (`.github/workflows/audit.yml`) to continuously scan the system's dependencies for security vulnerabilities.
+
+### Scope and Purpose
+The security audit scans the frontend dependencies in the workspace to identify high-severity packages that present security risks. This proactively maintains the system's security integrity.
+
+### Workflow Triggers
+The workflow operates under three trigger paradigms:
+1. **Scheduled Runs:** Runs automatically every day at 7AM to scan for newly disclosed vulnerabilities.
+2. **Event-Driven Runs:** Runs on a `push` or `pull_request` to any branch when changes occur in:
+   - `pnpm-lock.yaml` (dependency addition or updates)
+   - `.github/workflows/audit.yml` (changes to the audit configuration itself)
+3. **On-Demand Runs:** Can be manually triggered by maintainers via the GitHub Actions tab (`workflow_dispatch`).
+
+### Failure Alerting and Notifications
+If a **scheduled execution** of the security audit fails (i.e., a high-severity vulnerability is detected) it will automatically create an issue in the repository.
+
 ## Contributing
 
 Either cherry pick your solution so you don't include anything from your own learning goals or create a new fork for your changes.
