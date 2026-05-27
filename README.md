@@ -302,6 +302,75 @@ Notice that our assets don't load, this is simply because we didn't add them to 
 When a coach verifies your learning goal, you can see it on the website.
 ![verified learning goal](assets/README/verified-learning-goal.png)
 
+### Writing Code in Markdown
+
+You can write code blocks in your `evidence.svx` files using standard markdown fenced code block syntax. The template has built-in styling for code blocks, which will automatically show a stylized terminal header and custom syntax highlighting.
+
+#### Supported Languages
+Most common programming, styling, and configuration languages are supported for syntax highlighting, including:
+- **Programming:** `javascript` (or `js`), `typescript` (or `ts`), `python` (or `py`), `go`, `c`, `cpp`, `java`, `csharp`
+- **Web Languages:** `html`, `css`
+- **Data & Config:** `json`, `yaml` (or `yml`), `sql`, `xml`
+- **Shell:** `bash` (or `sh`), `powershell`, `command-line`
+
+#### Implementation Example
+To include a code block, wrap your code in triple backticks followed by the language identifier:
+
+\`\`\`javascript
+
+// Example of a Javascript code block
+
+function greetUser(name) {
+
+    console.log(`Hello, ${name}!`);
+
+}
+
+\`\`\`
+
+### The Project Drawer
+
+The application includes a collapsible **Project Drawer** component that dynamically loads and displays metadata and descriptions for specific projects associated with your learning goals.
+
+#### 1. Associating a Project with a Learning Goal
+In the learning goal's `goal.json` file, add the project name(s) to the `"project"` array:
+
+```json
+{
+    "number": "1.1",
+    "status": "Todo",
+    "project": ["OPO SKILL2"]
+}
+```
+
+#### 2. Defining Project Metadata and Content
+Create an `.svx` file named exactly after the project inside the `/learning_goals/projects/` directory (e.g., `/learning_goals/projects/OPO SKILL2.svx`).
+
+Use the frontmatter (the configuration block between the `---` delimiters) to define project metadata and then write standard markdown content below it:
+
+```markdown
+---
+duration: "3 weeks"
+startsOpened: true
+---
+
+## Project Description
+A brief description of OPO SKILL2 and its objectives.
+```
+
+- **`duration`**: *(String)* Displays the project's timeline (e.g., `"3 weeks"`, `"1 semester"`).
+- **`startsOpened`**: *(Boolean)* If set to `true`, the project drawer starts in an expanded state by default.
+
+#### 3. Hiding the Project Drawer
+If you have associated a project with a learning goal but wish to hide the project drawer for that specific goal's evidence modal, add `hideProjectDrawer: true` to the frontmatter of that goal's `evidence.svx` file:
+
+```markdown
+---
+visible: true
+hideProjectDrawer: true
+---
+```
+
 ## Filters on the website
 
 We have some filters on the website. 
