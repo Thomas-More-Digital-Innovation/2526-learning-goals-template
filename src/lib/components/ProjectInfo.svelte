@@ -115,15 +115,6 @@
             </div>
         {/if}
     </div>
-{:else}
-    <div
-        class="mb-6 rounded-xl border border-dashed border-rose-500 bg-rose-50 p-4 text-sm text-rose-700"
-    >
-        <p>
-            Metadata for project "<strong>{projectName}</strong>" missing in
-            <code>/learning_goals/projects/</code>
-        </p>
-    </div>
 {/if}
 
 <style>
